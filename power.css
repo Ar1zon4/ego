@@ -1,0 +1,213 @@
+*{
+    /* padding: 0; */
+    margin: 0;
+}
+
+
+.plan li{
+    display: inline;
+    
+}
+
+span{
+    color: red;
+}
+
+
+.plan a{
+    text-decoration:none ; 
+    padding: 40px 100px;
+    
+}
+
+.plain{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.plan{
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.plan1{
+    /* background: linear-gradient(white, blue); */
+    height: 500px;
+    background-image: url(images/Glitter.PNG);
+    background-size: cover;
+    background-position: left;
+}
+
+.spot{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%)
+}
+
+h1{
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+p{
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.newsletter form{
+    /* width: 380px; */
+    max-width: 100%;
+}
+
+.newsletter form input:first-child{
+    display: inline;
+    width: 50%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline ;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(53, 50, 50);
+}
+
+.about img{
+    height: 300px;
+    width: 430px;
+}
+
+.about-content{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-content h2{
+    color: white;
+    font-size: 50px;
+}
+.about-content p{
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+button{
+    position: absolute;
+    display: inline ;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.service{
+    background: rgb(43, 34, 34);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+     color: white;
+     font-size: 50px;
+     /* width: 1130px; */
+     margin: 30px;
+     text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+}
+
+@media(max-width:500px){
+    .plan li{
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 10px 70px;
+        width: 200px;
+        
+    }
+
+    .plan{
+        background-color: black;
+        height: 200px;
+        /* width: 10; */
+       
+        
+    }
+    .plan1{
+        height: 700px;
+    }
+
+    .plan a{
+        text-decoration:none ; 
+        padding: 40px 100px;
+    
+        
+    }
+    .spot{
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%)
+    }
+    .newsletter form input:first-child{
+        display: inline;
+        width: 30%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid black;
+        outline: none;
+        border-radius: 30px;
+    }
+    .me{
+        position: none;
+    }
+    .about-content h2{
+        color: white;
+        font-size: 30px;
+        justify-content: space-around;
+    }
+
+    
+
+}
+
